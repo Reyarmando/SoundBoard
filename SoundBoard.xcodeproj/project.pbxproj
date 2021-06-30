@@ -14,6 +14,8 @@
 		52D6B4C7268BF95A000FA4F0 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52D6B4C5268BF95A000FA4F0 /* SoundBoard.xcdatamodeld */; };
 		52D6B4C9268BF976000FA4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D6B4C8268BF976000FA4F0 /* Assets.xcassets */; };
 		52D6B4CC268BF976000FA4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D6B4CA268BF976000FA4F0 /* LaunchScreen.storyboard */; };
+		52D6B4D4268BFEB5000FA4F0 /* imgs in Resources */ = {isa = PBXBuildFile; fileRef = 52D6B4D3268BFEB4000FA4F0 /* imgs */; };
+		52D6B4D6268C04A4000FA4F0 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6B4D5268C04A4000FA4F0 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		52D6B4C8268BF976000FA4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D6B4CB268BF976000FA4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D6B4CD268BF976000FA4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D6B4D3268BFEB4000FA4F0 /* imgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgs; sourceTree = "<group>"; };
+		52D6B4D5268C04A4000FA4F0 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		52D6B4BB268BF95A000FA4F0 /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				52D6B4D3268BFEB4000FA4F0 /* imgs */,
 				52D6B4BC268BF95A000FA4F0 /* AppDelegate.swift */,
 				52D6B4BE268BF95A000FA4F0 /* SceneDelegate.swift */,
 				52D6B4C0268BF95A000FA4F0 /* ViewController.swift */,
@@ -66,6 +71,7 @@
 				52D6B4CA268BF976000FA4F0 /* LaunchScreen.storyboard */,
 				52D6B4CD268BF976000FA4F0 /* Info.plist */,
 				52D6B4C5268BF95A000FA4F0 /* SoundBoard.xcdatamodeld */,
+				52D6B4D5268C04A4000FA4F0 /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D6B4D4268BFEB5000FA4F0 /* imgs in Resources */,
 				52D6B4CC268BF976000FA4F0 /* LaunchScreen.storyboard in Resources */,
 				52D6B4C9268BF976000FA4F0 /* Assets.xcassets in Resources */,
 				52D6B4C4268BF95A000FA4F0 /* Main.storyboard in Resources */,
@@ -144,6 +151,7 @@
 				52D6B4C1268BF95A000FA4F0 /* ViewController.swift in Sources */,
 				52D6B4BD268BF95A000FA4F0 /* AppDelegate.swift in Sources */,
 				52D6B4BF268BF95A000FA4F0 /* SceneDelegate.swift in Sources */,
+				52D6B4D6268C04A4000FA4F0 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
